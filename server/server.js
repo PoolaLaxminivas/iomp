@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://life-os-khaki-eight.vercel.app/"
+    "https://life-os-khaki-eight.vercel.app"
   ],
   credentials: true
 }));
